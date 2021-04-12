@@ -1,0 +1,85 @@
+/******* Begin-Header *******/
+
+.nav {
+    background-color: #7CC2AF;
+
+}
+
+.nav .navbar-brand {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--gray-dark);
+}
+
+.navbar-light .navbar-text {
+    color: rgb(233, 233, 233);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/******* End-Header *******/
+
+
+/******* Begin-Main *******/
+
+#row-data {
+    margin-bottom: 80px;
+}
+
+.table-row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.th-head-athletes-info {
+    display: none;
+}
+
+#account-succes {
+    color: green;
+}
+
+#account-no-succes {
+    color: red;
+}
+
+#account-exists {
+    color: red;
+}
+
+
+/******* End-Main *******/
+
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .th-head-athlete-name {
+        display: none;
+    }
+
+    .th-head-athlete-info {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .athlete-data {
+        display: inline-block;
+    }
+
+    .athlete-data td {
+        display: inline-block;
+    }
+
+    .athlete-data td:nth-child(1) {
+        text-align: center;
+    }
+
+}
